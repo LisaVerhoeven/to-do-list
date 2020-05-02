@@ -71,13 +71,12 @@ input {
   width: 70%;
   display: block;
   border-bottom: 0.3rem solid transparent;
-  transition: all 0.3s;
+ 
 }
 
 input:placeholder-shown + label {
   opacity: 0;
   visibility: hidden;
-  
 }
 
 ul {
