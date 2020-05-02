@@ -31,7 +31,7 @@ body {
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 3rem;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
@@ -49,17 +49,16 @@ body {
 }
 
 label {
-   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   margin-left: 2rem;
   margin-top: 0.7rem;
   display: block;
   transition: all 0.3s;
   transform: translateY(0rem);
+  text-align: left;
 }
 
 input {
-  font-family: 'Roboto', sans-serif;
   color: #333;
   font-size: 1.2rem;
   margin: 0 auto;
@@ -71,18 +70,20 @@ input {
   width: 70%;
   display: block;
   border-bottom: 0.3rem solid transparent;
- 
+  transition: all 0.3s;
 }
 
 input:placeholder-shown + label {
   opacity: 0;
   visibility: hidden;
+   -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
 }
 
 ul {
   list-style-type: none;
   text-align: center;
-
+  font-size: 2rem;
   margin-right: 40px;
 }
 
@@ -104,14 +105,14 @@ cursor: pointer;
   box-shadow: 3px 4px 0px 0px #8a2a21;
   background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
   background-color:#c62d1f;
-  border-radius:18px;
+  border-radius:8px;
   border:1px solid #d02718;
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
-  font-family:Arial;
-  font-size:13px;
+  font-size:1rem;
   padding:0px 16px;
+  margin-left: 50px;
   text-decoration:none;
   text-shadow:0px 1px 0px #810e05;
 }
